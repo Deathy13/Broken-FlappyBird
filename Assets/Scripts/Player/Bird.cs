@@ -32,6 +32,7 @@ namespace FlappyBird
         {
             // Cancel velocity
             rigid.velocity = Vector2.zero;
+            
             // Bird is now dead
             isDead = true;
             // Tell the GameManager about it
